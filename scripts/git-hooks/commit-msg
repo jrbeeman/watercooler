@@ -8,7 +8,7 @@
 
 ROOT_DIR="$(pwd)/"
 PREFIX=$($ROOT_DIR/vendor/bin/drupal yaml:get:value $ROOT_DIR/project.yml project.prefix)
-regex="^$[^ ].{15,}\."
+regex="^[^ ].{15,}\."
 if ! grep -iqE "$regex" "$1"; then
   echo "Invalid commit message. Commit messages must:"
   echo "* Contain the project prefix followed by a hyphen"
