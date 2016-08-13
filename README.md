@@ -1,6 +1,6 @@
-# ${project.human_name}
+# Watercooler
 
-Replace this with a brief description of the ${project.human_name} project.
+Replace this with a brief description of the Watercooler project.
 
 ## BLT
 
