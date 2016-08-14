@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "506ddbb01ad158eefc4f7ba0df736fdb",
-    "content-hash": "4a81117380d693c25bdec2895b70977c",
+    "hash": "e3778ad235bef3292dd40bf9ad304f73",
+    "content-hash": "af84006f78e5dedb1645e59e29f55158",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1523,6 +1523,31 @@
             "time": "2016-01-11 16:56:15"
         },
         {
+            "name": "drupal/libraries",
+            "version": "dev-8.x-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/libraries",
+                "reference": "548f3c2c47596c5242e37b18000e7b2ec930f66a"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Allows version-dependent and shared usage of external libraries.",
+            "homepage": "http://drupal.org/project/libraries",
+            "time": "2016-06-27 23:35:26"
+        },
+        {
             "name": "drupal/lightning",
             "version": "8.1.03",
             "source": {
@@ -1703,6 +1728,37 @@
             "description": "A fast and feature-rich Drupal distribution.",
             "homepage": "https://www.drupal.org/project/lightning",
             "time": "2016-08-03 19:09:44"
+        },
+        {
+            "name": "drupal/markdown",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/markdown",
+                "reference": "2709041c7bb2c01de6f3559d2c3eab4a52cb4788"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/markdown-8.x-1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Allows content to be submitted using Markdown, a simple plain-text syntax that is transformed into valid HTML.",
+            "homepage": "http://drupal.org/project/markdown",
+            "time": "2016-02-04 01:39:10"
         },
         {
             "name": "drupal/media_entity",
@@ -2208,16 +2264,16 @@
         },
         {
             "name": "drupal/token",
-            "version": "8.1.0-alpha2",
+            "version": "8.1.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/token",
-                "reference": "918d0d5e8e8ee7f446d3e068cb6aa2d7c61ee625"
+                "reference": "1c68e82525fda1bd12021502da81b929b9ae5c02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-alpha2.zip",
-                "reference": "918d0d5e8e8ee7f446d3e068cb6aa2d7c61ee625",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-beta1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2235,20 +2291,20 @@
             ],
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
-            "time": "2016-01-21 08:02:24"
+            "time": "2016-08-09 07:03:16"
         },
         {
             "name": "drupal/video_embed_field",
-            "version": "8.1.2",
+            "version": "8.1.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/video_embed_field",
-                "reference": "811376244c729bc536ec37f7b63557e8ce6bab2a"
+                "reference": "54dd2bd284f4ff3dd5bfe0748172cc0bba9c7903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.2.zip",
-                "reference": "811376244c729bc536ec37f7b63557e8ce6bab2a",
+                "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2282,7 +2338,7 @@
             ],
             "description": "Provides a field type for displaying videos from 3rd party providers such as YouTube and Vimeo.",
             "homepage": "https://www.drupal.org/project/video_embed_field",
-            "time": "2016-07-22 09:03:05"
+            "time": "2016-08-11 02:35:09"
         },
         {
             "name": "drupal/views_infinite_scroll",
@@ -2837,6 +2893,57 @@
                 "xml"
             ],
             "time": "2016-05-10 14:11:45"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "156e56ee036505ec637d761ee62dc425d807183c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/156e56ee036505ec637d761ee62dc425d807183c",
+                "reference": "156e56ee036505ec637d761ee62dc425d807183c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2015-12-24 01:37:31"
         },
         {
             "name": "padraic/humbug_get_contents",
@@ -5813,6 +5920,55 @@
             "time": "2016-07-05 20:48:03"
         },
         {
+            "name": "drupal/devel",
+            "version": "8.1.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/devel",
+                "reference": "930b7b89c2fa2047ebbb0fb3ba53f45a67409242"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/devel-8.x-1.0-alpha1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/devel_generate": "self.version",
+                "drupal/devel_node_access": "self.version",
+                "drupal/kint": "self.version",
+                "drupal/webprofiler": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/devel_generate, drupal/devel_node_access, drupal/kint, drupal/webprofiler",
+                "drupal/menu_ui": "Required by drupal/devel_node_access"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "homepage": "https://github.com/weitzman",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "time": "2016-06-23 14:14:07"
+        },
+        {
             "name": "drupal/drupal-driver",
             "version": "v1.2.1",
             "source": {
@@ -6522,12 +6678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "ac7321d257bf62f661053c158b1614f74d18df73"
+                "reference": "aafba30759e45faa589c9a9309d7096c2a7f836e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/ac7321d257bf62f661053c158b1614f74d18df73",
-                "reference": "ac7321d257bf62f661053c158b1614f74d18df73",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/aafba30759e45faa589c9a9309d7096c2a7f836e",
+                "reference": "aafba30759e45faa589c9a9309d7096c2a7f836e",
                 "shasum": ""
             },
             "require": {
@@ -6607,7 +6763,7 @@
                 "task",
                 "tool"
             ],
-            "time": "2016-08-10 15:19:46"
+            "time": "2016-08-11 19:30:21"
         },
         {
             "name": "phpdocumentor/reflection-common",
