@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3778ad235bef3292dd40bf9ad304f73",
-    "content-hash": "af84006f78e5dedb1645e59e29f55158",
+    "hash": "93f7bc71a420e9747b4c126522533399",
+    "content-hash": "71873154b6a32f6a4ec8b94f498ac40f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1740,7 +1740,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/markdown-8.x-1.0.zip",
-                "reference": null,
+                "reference": "2709041c7bb2c01de6f3559d2c3eab4a52cb4788",
                 "shasum": null
             },
             "require": {
@@ -2273,7 +2273,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "1c68e82525fda1bd12021502da81b929b9ae5c02",
                 "shasum": null
             },
             "require": {
@@ -2304,7 +2304,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.3.zip",
-                "reference": null,
+                "reference": "54dd2bd284f4ff3dd5bfe0748172cc0bba9c7903",
                 "shasum": null
             },
             "require": {
