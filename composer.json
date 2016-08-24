@@ -17,7 +17,9 @@
         "drupal/lightning": "~8.1",
         "drupal/markdown": "8.1.*",
         "michelf/php-markdown": "1.x",
-        "drupal/libraries": "8.x"
+        "drupal/libraries": "8.x",
+        "drupal/flag": "8.4.*",
+        "drupal/recaptcha": "~8"
     },
     "prefer-stable": true,
     "require-dev": {

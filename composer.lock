@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3778ad235bef3292dd40bf9ad304f73",
-    "content-hash": "af84006f78e5dedb1645e59e29f55158",
+    "hash": "68173f9378df91dc5ae75f79cb2fa1f1",
+    "content-hash": "90480190530a9ae6908116bf29e1b3f1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -811,7 +811,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/acquia_connector-8.x-1.4.zip",
-                "reference": null,
+                "reference": "36f7bebc88b4c18af5aa23d5fd8555839b6c7af9",
                 "shasum": null
             },
             "require": {
@@ -893,6 +893,44 @@
             "description": "This is the module that connects a Drupal codebase to Acquia Cloud Site Factory.",
             "homepage": "https://www.drupal.org/project/acsf",
             "time": "2016-08-10 10:20:14"
+        },
+        {
+            "name": "drupal/captcha",
+            "version": "8.1.0-alpha0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/captcha",
+                "reference": "43d5ed1c263c06bff5528ffc265966177c29da59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/captcha-8.x-1.0-alpha0.zip",
+                "reference": "43d5ed1c263c06bff5528ffc265966177c29da59",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/node": "8.*"
+            },
+            "replace": {
+                "drupal/image_captcha": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/image_captcha"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides the CAPTCHA API for adding challenges to arbitrary forms.",
+            "homepage": "https://www.drupal.org/project/captcha",
+            "time": "2015-11-25 14:19:48"
         },
         {
             "name": "drupal/config_update",
@@ -1436,6 +1474,41 @@
             "description": "Enables administrators to package configuration into modules.",
             "homepage": "https://www.drupal.org/project/features",
             "time": "2016-08-04 18:45:56"
+        },
+        {
+            "name": "drupal/flag",
+            "version": "dev-8.x-4.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/flag",
+                "reference": "862f57b52a23cbb86b8665994baf213bdfc5ef72"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/flag_bookmark": "self.version",
+                "drupal/flag_follower": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/flag_bookmark, drupal/flag_follower",
+                "drupal/node": "Required by drupal/flag_bookmark, drupal/flag_follower",
+                "drupal/user": "Required by drupal/flag_follower",
+                "drupal/views": "Required by drupal/flag_bookmark, drupal/flag_follower"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-4.x": "8.4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Create customized flags that users can set on entities.",
+            "homepage": "https://www.drupal.org/project/flag",
+            "time": "2016-08-20 19:13:39"
         },
         {
             "name": "drupal/inline_entity_form",
@@ -1984,7 +2057,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta10.zip",
-                "reference": null,
+                "reference": "c0610ad2ad9318298823c24db66b8769095910a3",
                 "shasum": null
             },
             "require": {
@@ -2195,6 +2268,48 @@
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
             "time": "2016-04-18 18:44:27"
+        },
+        {
+            "name": "drupal/recaptcha",
+            "version": "8.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/recaptcha",
+                "reference": "687a0d6b4cf24bf5a5a7c149c1419fca2c0a8fb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/recaptcha-8.x-2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/captcha": "~8.0",
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-2.x": "8.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hass",
+                    "homepage": "https://www.drupal.org/u/hass"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/147903/committers"
+                }
+            ],
+            "description": "Protect your website from spam and abuse while letting real people pass through with ease.",
+            "homepage": "https://www.drupal.org/project/recaptcha",
+            "time": "2016-07-30 06:17:09"
         },
         {
             "name": "drupal/scheduled_updates",
