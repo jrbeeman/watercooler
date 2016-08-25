@@ -1,3 +1,10 @@
+# Installation
+
+```
+composer install;
+cd docroot/themes/contrib/zurb_foundation && npm install && bower install && cd -;
+```
+
 # Projects to port
 
 

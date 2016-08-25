@@ -20,7 +20,8 @@
         "drupal/libraries": "8.x",
         "drupal/flag": "8.4.*",
         "drupal/recaptcha": "~8",
-        "mjohnson/decoda": "~6"
+        "mjohnson/decoda": "~6",
+        "drupal/zurb_foundation": "8.6.*"
     },
     "prefer-stable": true,
     "require-dev": {
