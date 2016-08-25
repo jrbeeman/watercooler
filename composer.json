@@ -19,7 +19,8 @@
         "michelf/php-markdown": "1.x",
         "drupal/libraries": "8.x",
         "drupal/flag": "8.4.*",
-        "drupal/recaptcha": "~8"
+        "drupal/recaptcha": "~8",
+        "mjohnson/decoda": "~6"
     },
     "prefer-stable": true,
     "require-dev": {
