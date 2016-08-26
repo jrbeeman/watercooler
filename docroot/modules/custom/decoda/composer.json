@@ -1,0 +1,16 @@
+{
+  "name": "drupal/decoda",
+  "type": "drupal-module",
+  "description": "Add Decoda text parsing library.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/decoda",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/decoda",
+    "source": "http://cgit.drupalcode.org/decoda"
+  },
+  "require": {
+    "mjohnson/decoda": "~6"
+  }
+}
