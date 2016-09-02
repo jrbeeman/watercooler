@@ -1,5 +1,5 @@
-name: 'Decoda filter'
+name: 'Decoda BBCode filter'
 type: module
-description: 'Add Decoda text parsing library.'
+description: 'Add the Decoda BBCode text parsing library.'
 core: 8.x
 package: 'Input filters'
