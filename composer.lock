@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "59459833af5afb83121f6606ea7b2cf0",
-    "content-hash": "eea344ba1cde2d6bcf4f3e1ec5ba599a",
+    "hash": "ccd1b968eb93ac22ece74c2dea1d62c7",
+    "content-hash": "475f63c8a30fb5ca9cf06e3779641ec8",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -71,16 +71,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9"
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/a3595c5272a6f247228abb20076ed27321e4aae9",
-                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                "reference": "d78064c68299743e0161004f2de3a0204e33b804",
                 "shasum": ""
             },
             "require": {
@@ -127,6 +127,7 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
+                "Plentymarkets",
                 "RadPHP",
                 "SMF",
                 "Thelia",
@@ -134,9 +135,11 @@
                 "agl",
                 "aimeos",
                 "annotatecms",
+                "attogram",
                 "bitrix",
                 "cakephp",
                 "chef",
+                "cockpit",
                 "codeigniter",
                 "concrete5",
                 "croogo",
@@ -160,29 +163,31 @@
                 "piwik",
                 "ppi",
                 "puppet",
+                "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
                 "typo3",
                 "wordpress",
+                "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2016-07-05 06:18:20"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "composer/semver",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "03c9de5aa25e7672c4ad251eeaba0c47a06c8b98"
+                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/03c9de5aa25e7672c4ad251eeaba0c47a06c8b98",
-                "reference": "03c9de5aa25e7672c4ad251eeaba0c47a06c8b98",
+                "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
                 "shasum": ""
             },
             "require": {
@@ -231,18 +236,24 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-06-02 09:04:51"
+            "time": "2016-08-30 16:08:34"
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "dev-master",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FloeDesignTechnologies/composer-patches",
-                "reference": "8bd545ecfebce782ffa3a2bcc0e6f22c9825260b"
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "8de7c73b2eae217f4e7028d7262ff2330aa4b4e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/8de7c73b2eae217f4e7028d7262ff2330aa4b4e8",
+                "reference": "8de7c73b2eae217f4e7028d7262ff2330aa4b4e8",
+                "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "~1.0",
+                "composer-plugin-api": "^1.0",
                 "php": ">=5.3.0"
             },
             "require-dev": {
@@ -258,11 +269,7 @@
                     "cweagans\\Composer\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "cweagans\\Composer\\Tests\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD"
             ],
@@ -273,7 +280,7 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2016-02-17 21:33:42"
+            "time": "2016-03-28 18:54:21"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -727,16 +734,16 @@
         },
         {
             "name": "drupal-composer/drupal-scaffold",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-scaffold.git",
-                "reference": "0899167ed08be48e5137a701436fe4919820d6bf"
+                "reference": "617fa3a2466795b148e3255651591682f2325ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-scaffold/zipball/0899167ed08be48e5137a701436fe4919820d6bf",
-                "reference": "0899167ed08be48e5137a701436fe4919820d6bf",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-scaffold/zipball/617fa3a2466795b148e3255651591682f2325ede",
+                "reference": "617fa3a2466795b148e3255651591682f2325ede",
                 "shasum": ""
             },
             "require": {
@@ -764,7 +771,7 @@
                 "GPL-2.0+"
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
-            "time": "2016-05-25 21:59:48"
+            "time": "2016-08-29 16:56:02"
         },
         {
             "name": "drupal-composer/drupal-security-advisories",
@@ -841,16 +848,16 @@
         },
         {
             "name": "drupal/acsf",
-            "version": "8.1.27",
+            "version": "8.1.28",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/acsf",
-                "reference": "1205f766882a1e7467f53dfd430cfde22974aa7a"
+                "reference": "120916142dd484d2f748b7100b526dac725bd189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.27.zip",
-                "reference": "1205f766882a1e7467f53dfd430cfde22974aa7a",
+                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.28.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -858,6 +865,7 @@
             },
             "replace": {
                 "drupal/acsf_duplication": "self.version",
+                "drupal/acsf_sso": "self.version",
                 "drupal/acsf_theme": "self.version",
                 "drupal/acsf_variables": "self.version"
             },
@@ -867,7 +875,8 @@
             },
             "suggest": {
                 "drupal/acsf_variables": "Required by drupal/acsf_theme",
-                "drupal/core": "Required by drupal/acsf_duplication, drupal/acsf_theme, drupal/acsf_variables"
+                "drupal/core": "Required by drupal/acsf_duplication, drupal/acsf_sso, drupal/acsf_theme, drupal/acsf_variables",
+                "drupal/samlauth": "Required by drupal/acsf_sso"
             },
             "type": "drupal-module",
             "extra": {
@@ -892,7 +901,7 @@
             ],
             "description": "This is the module that connects a Drupal codebase to Acquia Cloud Site Factory.",
             "homepage": "https://www.drupal.org/project/acsf",
-            "time": "2016-08-10 10:20:14"
+            "time": "2016-09-01 09:23:09"
         },
         {
             "name": "drupal/captcha",
@@ -1438,16 +1447,16 @@
         },
         {
             "name": "drupal/features",
-            "version": "8.3.0-beta7",
+            "version": "8.3.0-beta8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/features",
-                "reference": "fd22277b68a2aa06ff0d86af954e694db68677a9"
+                "reference": "1edc3b91b51b849fb798612126b50d7d66b5830b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-beta7.zip",
-                "reference": "fd22277b68a2aa06ff0d86af954e694db68677a9",
+                "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-beta8.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1473,7 +1482,7 @@
             ],
             "description": "Enables administrators to package configuration into modules.",
             "homepage": "https://www.drupal.org/project/features",
-            "time": "2016-08-04 18:45:56"
+            "time": "2016-09-02 20:10:53"
         },
         {
             "name": "drupal/flag",
@@ -1481,7 +1490,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/flag",
-                "reference": "862f57b52a23cbb86b8665994baf213bdfc5ef72"
+                "reference": "4df85fbcc6d4a876940bb31a6ad55e577603a0e6"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1508,7 +1517,7 @@
             ],
             "description": "Create customized flags that users can set on entities.",
             "homepage": "https://www.drupal.org/project/flag",
-            "time": "2016-08-20 19:13:39"
+            "time": "2016-08-27 19:30:36"
         },
         {
             "name": "drupal/inline_entity_form",
@@ -1601,7 +1610,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/libraries",
-                "reference": "548f3c2c47596c5242e37b18000e7b2ec930f66a"
+                "reference": "a979845f8fe7f69ab4abd1e4999af5e70d70678e"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1618,7 +1627,7 @@
             ],
             "description": "Allows version-dependent and shared usage of external libraries.",
             "homepage": "http://drupal.org/project/libraries",
-            "time": "2016-06-27 23:35:26"
+            "time": "2016-08-31 18:48:11"
         },
         {
             "name": "drupal/lightning",
@@ -1835,16 +1844,16 @@
         },
         {
             "name": "drupal/media_entity",
-            "version": "8.1.3",
+            "version": "8.1.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/media_entity.git",
-                "reference": "c91484b496857ce13c827a988f0befa82260dfe6"
+                "reference": "41e74fd385fcfc535a6b4ddb2a9f9b105be2f137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_entity-8.x-1.3.zip",
-                "reference": "c91484b496857ce13c827a988f0befa82260dfe6",
+                "url": "https://ftp.drupal.org/files/projects/media_entity-8.x-1.4.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1866,7 +1875,7 @@
             "keywords": [
                 "Drupal"
             ],
-            "time": "2016-08-02 19:15:54"
+            "time": "2016-09-01 19:40:35"
         },
         {
             "name": "drupal/media_entity_document",
@@ -2057,7 +2066,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta10.zip",
-                "reference": "c0610ad2ad9318298823c24db66b8769095910a3",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2078,8 +2087,7 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
-                },
-                "patches_applied": []
+                }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "license": [
@@ -5218,16 +5226,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.1",
+            "version": "v1.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512"
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3566d311a92aae4deec6e48682dc5a4528c4a512",
-                "reference": "3566d311a92aae4deec6e48682dc5a4528c4a512",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
                 "shasum": ""
             },
             "require": {
@@ -5275,7 +5283,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-05-30 09:11:59"
+            "time": "2016-09-01 17:50:53"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -6508,19 +6516,20 @@
         },
         {
             "name": "jakoch/phantomjs-installer",
-            "version": "1.9.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jakoch/phantomjs-installer.git",
-                "reference": "fd6459094404f698a4edb9609e5e8c55c6418824"
+                "reference": "3040a722fca97f11089c1a459342aee39d4e2326"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jakoch/phantomjs-installer/zipball/fd6459094404f698a4edb9609e5e8c55c6418824",
-                "reference": "fd6459094404f698a4edb9609e5e8c55c6418824",
+                "url": "https://api.github.com/repos/jakoch/phantomjs-installer/zipball/3040a722fca97f11089c1a459342aee39d4e2326",
+                "reference": "3040a722fca97f11089c1a459342aee39d4e2326",
                 "shasum": ""
             },
             "require": {
+                "ext-bz2": "*",
                 "ext-openssl": "*"
             },
             "type": "custom-installer",
@@ -6545,7 +6554,7 @@
                 "headless",
                 "phantomjs"
             ],
-            "time": "2014-12-05 17:57:27"
+            "time": "2016-08-12 13:18:15"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -6891,12 +6900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "dba918daaa394c777cb7b7257f90f466850d8441"
+                "reference": "5178bf7a0a504a76dc904b634d2651ed45616747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/dba918daaa394c777cb7b7257f90f466850d8441",
-                "reference": "dba918daaa394c777cb7b7257f90f466850d8441",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/5178bf7a0a504a76dc904b634d2651ed45616747",
+                "reference": "5178bf7a0a504a76dc904b634d2651ed45616747",
                 "shasum": ""
             },
             "require": {
@@ -6976,7 +6985,7 @@
                 "task",
                 "tool"
             ],
-            "time": "2016-08-23 11:50:17"
+            "time": "2016-08-30 19:08:54"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -7432,16 +7441,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.5.2",
+            "version": "5.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "46ec2d1522ae8c9a12aca6b7650e0be78bbb0502"
+                "reference": "3e6e88e56c912133de6e99b87728cca7ed70c5f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/46ec2d1522ae8c9a12aca6b7650e0be78bbb0502",
-                "reference": "46ec2d1522ae8c9a12aca6b7650e0be78bbb0502",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e6e88e56c912133de6e99b87728cca7ed70c5f5",
+                "reference": "3e6e88e56c912133de6e99b87728cca7ed70c5f5",
                 "shasum": ""
             },
             "require": {
@@ -7506,20 +7515,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-08-18 11:10:44"
+            "time": "2016-08-26 07:11:44"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.2.4",
+            "version": "3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "4e83390f64e7ce04fcaec2ce95cd72823b431d19"
+                "reference": "46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/4e83390f64e7ce04fcaec2ce95cd72823b431d19",
-                "reference": "4e83390f64e7ce04fcaec2ce95cd72823b431d19",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49",
+                "reference": "46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49",
                 "shasum": ""
             },
             "require": {
@@ -7565,7 +7574,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-08-17 09:33:51"
+            "time": "2016-08-26 05:51:59"
         },
         {
             "name": "platinumpixs/phing-random-string",
@@ -8196,16 +8205,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.6.2",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4edb770cb853def6e60c93abb088ad5ac2010c83"
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4edb770cb853def6e60c93abb088ad5ac2010c83",
-                "reference": "4edb770cb853def6e60c93abb088ad5ac2010c83",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
                 "shasum": ""
             },
             "require": {
@@ -8270,7 +8279,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-07-13 23:29:13"
+            "time": "2016-09-01 23:53:02"
         },
         {
             "name": "symfony/browser-kit",
@@ -8445,20 +8454,20 @@
     ],
     "aliases": [
         {
-            "alias": "1.5.0",
-            "alias_normalized": "1.5.0.0",
+            "alias": "1.9.8",
+            "alias_normalized": "1.9.8.0",
             "version": "9999999-dev",
-            "package": "cweagans/composer-patches"
+            "package": "jakoch/phantomjs-installer"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cweagans/composer-patches": 20,
         "roave/security-advisories": 20,
         "drupal-composer/drupal-security-advisories": 20,
         "acquia/blt": 20,
         "behat/mink": 0,
-        "phing/phing": 20
+        "phing/phing": 20,
+        "jakoch/phantomjs-installer": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
