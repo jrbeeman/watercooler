@@ -1,5 +1,5 @@
-name: decoda
+name: 'Decoda filter'
 type: module
-description: Add Decoda text parsing library.
+description: 'Add Decoda text parsing library.'
 core: 8.x
-package: Input filters
+package: 'Input filters'
