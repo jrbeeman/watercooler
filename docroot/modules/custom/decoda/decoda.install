@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Decoda module.
+ */
+
+/**
+ * Implements hook_requirements().
+ */
+function decoda_requirements($phase) {
+  $composer_loaded = class_exists('Decoda\Decoda');
+  if (!$composer_loaded) {
+    $requirements = array();
+    $requirements['decoda_library'] = array(
+      'title' => t('Decoda library'),
+      'value' => t('Not found'),
+      'severity' => REQUIREMENT_ERROR,
+      'description' => t('The Decoda library could not be found.'),
+    );
+    return $requirements;
+  }
+}
