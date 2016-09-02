@@ -40,12 +40,16 @@ if ($is_local_env) {
     require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_watercooler_dd.inc';
   }
   // Load local machine settings.
-  elseif (file_exists(DRUPAL_ROOT . '/sites/default/settings/local.settings.php')) {
+  if (file_exists(DRUPAL_ROOT . '/sites/default/settings/local.settings.php')) {
     require DRUPAL_ROOT . '/sites/default/settings/local.settings.php';
   }
 
+  // Load Acquia Pipeline settings.
+  if (getenv('PIPELINE_ENV') && file_exists(DRUPAL_ROOT . '/sites/default/settings/pipelines.settings.php')) {
+    require DRUPAL_ROOT . '/sites/default/settings/pipelines.settings.php';
+  }
   // Load Travis CI settings.
-  if (getenv('TRAVIS') && file_exists(DRUPAL_ROOT . '/sites/default/settings/travis.settings.php')) {
+  elseif (getenv('TRAVIS') && file_exists(DRUPAL_ROOT . '/sites/default/settings/travis.settings.php')) {
     require DRUPAL_ROOT . '/sites/default/settings/travis.settings.php';
   }
   // Load Tugboat settings.

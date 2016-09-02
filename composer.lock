@@ -2535,7 +2535,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/zurb-foundation-8.x-6.0-alpha1.zip",
-                "reference": null,
+                "reference": "9eba86db3f16090c7509073ce55dc922230d8fba",
                 "shasum": null
             },
             "require": {
@@ -5485,12 +5485,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "827af6e0d9644fe3f6c94aec45ba6adf670beb18"
+                "reference": "be7991760222812c4d8e360ee1363b5e519e261e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/827af6e0d9644fe3f6c94aec45ba6adf670beb18",
-                "reference": "827af6e0d9644fe3f6c94aec45ba6adf670beb18",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/be7991760222812c4d8e360ee1363b5e519e261e",
+                "reference": "be7991760222812c4d8e360ee1363b5e519e261e",
                 "shasum": ""
             },
             "require": {
@@ -5519,7 +5519,7 @@
                 "GPL-2.0"
             ],
             "description": "BLT",
-            "time": "2016-08-20 05:08:23"
+            "time": "2016-09-02 13:51:04"
         },
         {
             "name": "behat/behat",
