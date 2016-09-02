@@ -9,6 +9,7 @@ docroot/core
 # Ignore paths that contain user-generated content.
 docroot/sites/*/files
 docroot/sites/*/private
+docroot/sites/default/emoticons
 
 # Ignore contrib modules. These should be created during build process.
 docroot/modules/contrib
