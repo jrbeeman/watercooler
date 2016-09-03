@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ccd1b968eb93ac22ece74c2dea1d62c7",
-    "content-hash": "475f63c8a30fb5ca9cf06e3779641ec8",
+    "hash": "1c77e6268c4fa0718b649808672794bd",
+    "content-hash": "d092a98685053c90eaa1bed0afebfcec",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -857,7 +857,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.28.zip",
-                "reference": null,
+                "reference": "120916142dd484d2f748b7100b526dac725bd189",
                 "shasum": null
             },
             "require": {
@@ -1456,7 +1456,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-beta8.zip",
-                "reference": null,
+                "reference": "1edc3b91b51b849fb798612126b50d7d66b5830b",
                 "shasum": null
             },
             "require": {
@@ -1853,7 +1853,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity-8.x-1.4.zip",
-                "reference": null,
+                "reference": "41e74fd385fcfc535a6b4ddb2a9f9b105be2f137",
                 "shasum": null
             },
             "require": {
@@ -1876,6 +1876,38 @@
                 "Drupal"
             ],
             "time": "2016-09-01 19:40:35"
+        },
+        {
+            "name": "drupal/media_entity_audio",
+            "version": "8.1.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/media_entity_audio.git",
+                "reference": "55c36ed53da4863d73923932f41d306d82c77683"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_entity_audio-8.x-1.0-beta3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/media_entity": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Media entity for audio files.",
+            "homepage": "https://www.drupal.org/project/media_entity_audio",
+            "time": "2016-07-30 16:40:39"
         },
         {
             "name": "drupal/media_entity_document",
@@ -2066,7 +2098,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta10.zip",
-                "reference": null,
+                "reference": "c0610ad2ad9318298823c24db66b8769095910a3",
                 "shasum": null
             },
             "require": {
