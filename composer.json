@@ -14,7 +14,7 @@
         "drupal/security_review": "8.*",
         "roave/security-advisories": "dev-master",
         "drupal-composer/drupal-security-advisories": "8.0.x-dev",
-        "drupal/lightning": "8.1.03",
+        "drupal/lightning": "~8",
         "drupal/markdown": "8.1.*",
         "michelf/php-markdown": "1.x",
         "drupal/libraries": "8.x",
