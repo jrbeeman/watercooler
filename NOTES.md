@@ -10,11 +10,10 @@ cd docroot/themes/contrib/zurb_foundation && npm install && bower install && cd 
 
 ## BBCode + BBCode CKEditor Plugin
 
-- Use [Decoda](https://packagist.org/packages/mjohnson/decoda)
+- DONE: Use [Decoda](https://packagist.org/packages/mjohnson/decoda)
 - Use [BBCode CKEditor Plugin](http://ckeditor.com/addon/bbcode)
 - Need to figure out how to define dependencies in a custom module, but have composer still install them. For now, just add dependencies to top-level composer.json.
 - Smiley alternative: [Emojione](https://packagist.org/packages/emojione/emojione)
-- Wordfilter alternative: [Ban Builder](https://github.com/snipe/banbuilder)
 
 
 ## Markdown + Markdown CKEditor Plugin
@@ -37,3 +36,46 @@ References: [[1]](https://www.drupal.org/node/2026959)
 ## Privatemsg
 
 TBD
+
+
+# Architecture notes
+
+## Article
+
+- Title
+- Section
+- Hero
+- Body w/ summary
+- Scheduled updates
+
+## Podcast
+
+Podcasts are containers for an entire series of shows. Podcast episodes are individual instances of a podcast. e.g. "This American Life" is a podcast, and episode 123 is a podcast episode.
+
+- Title
+- Hero
+- Image: The square thumbnail cover image.
+- Body w/ summary: Provides Description and iTunes: Summary podcast feed fields.
+- Other feed metadata
+  - Category / iTunes: Category
+  - iTunes: Owner
+  - iTunes: Author
+  - iTunes: Subtitle
+  - Managing editor
+  - iTunes: Keywords
+  - iTunes: Explicit
+
+## Podcast episode
+
+- Title
+- \* Hero
+- Body w/ summary: Provides Description and iTunes: Summary podcast feed fields.
+- \* Author
+- \* Category
+- \* Explicit
+- \* Image
+- Enclosure
+- Publication date
+- Scheduled updates
+
+\* Default inherited from podcast
