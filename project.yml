@@ -12,6 +12,16 @@ git:
     default_branch: master
     remotes:
         - 'git@github.com:jrbeeman/watercooler.git'
+    commit_message:
+        regex: "^$WC-[0-9]+(: )[^ ].{15,}\."
+        instructions: |
+            Invalid commit message. Commit messages must:
+
+            * Contain the project prefix followed by a hyphen
+            * Contain a ticket number followed by a colon and a space
+            * Be at least 15 characters long and end with a period.
+
+            Valid example: WC-135: Added the new picture field to the article feature.
 drush:
     aliases:
         remote: '${project.machine_name}.test'
