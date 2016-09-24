@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ec7004b55e2f93aa378dd0a04281fa0",
-    "content-hash": "4b9e183fab4ba5f9b9e47bf2e894617e",
+    "hash": "b1ed382db87089e2459fedbbdedfe852",
+    "content-hash": "68c9669a53ad5084e74beceeea5a8177",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -816,7 +816,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.31.zip",
-                "reference": null,
+                "reference": "2bc61d6fea1a475944fbe1d7b1c1141181284b53",
                 "shasum": null
             },
             "require": {
@@ -863,6 +863,16 @@
             "time": "2016-09-21 09:41:58"
         },
         {
+            "name": "drupal/audio_embed_field",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/sandbox/vilepickle/2784301.git",
+                "reference": "refs/heads/8.x-1.x"
+            },
+            "type": "drupal-module"
+        },
+        {
             "name": "drupal/captcha",
             "version": "8.1.0-alpha1",
             "source": {
@@ -873,7 +883,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/captcha-8.x-1.0-alpha1.zip",
-                "reference": null,
+                "reference": "8e2b07e067b79968102f6862487761d61f398f03",
                 "shasum": null
             },
             "require": {
@@ -1214,7 +1224,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0-alpha27.zip",
-                "reference": null,
+                "reference": "231e2649678d58901368a9e5681f36865ce84e73",
                 "shasum": null
             },
             "require": {
@@ -1317,7 +1327,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-1.0-alpha9.zip",
-                "reference": null,
+                "reference": "8a7aeca9f32f17fb672a222bd79251a06647b2fe",
                 "shasum": null
             },
             "require": {
@@ -1377,7 +1387,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity_embed-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "1bc7daad0acb10bfa392bbb63b06e3ec06f0021c",
                 "shasum": null
             },
             "require": {
@@ -1411,7 +1421,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-beta9.zip",
-                "reference": null,
+                "reference": "86ec48573f564faf89e87c663786f45c438e5ec5",
                 "shasum": null
             },
             "require": {
@@ -1595,7 +1605,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.05.zip",
-                "reference": null,
+                "reference": "6055d8faa4ce9dfc36aa8b057a7192f6d7060a4c",
                 "shasum": null
             },
             "require": {
@@ -1801,7 +1811,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity-8.x-1.5.zip",
-                "reference": null,
+                "reference": "bc79ca090ad30a008960fdf5bcaa699494292230",
                 "shasum": null
             },
             "require": {
@@ -1836,7 +1846,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity_audio-8.x-1.0-beta3.zip",
-                "reference": null,
+                "reference": "55c36ed53da4863d73923932f41d306d82c77683",
                 "shasum": null
             },
             "require": {
@@ -2015,7 +2025,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.0-alpha2.zip",
-                "reference": null,
+                "reference": "20bcb68e72f17ec7f156eff69e9fab925ca30d54",
                 "shasum": null
             },
             "require": {
@@ -2046,7 +2056,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.0-beta10.zip",
-                "reference": null,
+                "reference": "c0610ad2ad9318298823c24db66b8769095910a3",
                 "shasum": null
             },
             "require": {
@@ -2099,7 +2109,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/page_manager-8.x-1.0-alpha24.zip",
-                "reference": null,
+                "reference": "e17581138de8047ffa4b740a6d9074f854aa80c7",
                 "shasum": null
             },
             "require": {
@@ -2146,7 +2156,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/panelizer-8.x-3.0-alpha2.zip",
-                "reference": null,
+                "reference": "75a432927539383b391e6905fb5614cbe85a4b84",
                 "shasum": null
             },
             "require": {
@@ -2226,7 +2236,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "05a0bc51694b70efb697b3c8b175f2884bff7b34",
                 "shasum": null
             },
             "require": {
@@ -2365,7 +2375,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/token-8.x-1.0-beta2.zip",
-                "reference": null,
+                "reference": "724ccaa7a60f1aa7e8883e82de737115b0f73a3f",
                 "shasum": null
             },
             "require": {

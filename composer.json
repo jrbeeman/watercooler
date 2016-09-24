@@ -22,7 +22,7 @@
         "drupal/flag": "8.4.*",
         "drupal/recaptcha": "~8",
         "drupal/zurb_foundation": "8.6.*",
-        "drupal/media_entity_audio": "8.1.*"
+        "drupal/audio_embed_field": "~8"
     },
     "prefer-stable": true,
     "require-dev": {
@@ -63,6 +63,19 @@
         {
             "type": "git",
             "url": "https://github.com/FloeDesignTechnologies/composer-patches"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal/audio_embed_field",
+                "version": "8.0.0",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://git.drupal.org/sandbox/vilepickle/2784301.git",
+                    "type": "git",
+                    "reference": "refs/heads/8.x-1.x"
+                }
+            }
         }
     ],
     "autoload-dev": {
