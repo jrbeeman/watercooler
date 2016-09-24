@@ -5,6 +5,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.podcast_episode.body
     - field.field.node.podcast_episode.field_hero
+    - field.field.node.podcast_episode.field_podcast
     - field.field.node.podcast_episode.field_podcast_album_art
     - field.field.node.podcast_episode.field_podcast_author
     - field.field.node.podcast_episode.field_podcast_category
@@ -28,13 +29,21 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 2
+    weight: 3
     settings:
       trim_length: 600
     third_party_settings: {  }
+  field_podcast:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
   field_podcast_album_art:
     type: image
-    weight: 1
+    weight: 2
     label: above
     settings:
       image_style: ''

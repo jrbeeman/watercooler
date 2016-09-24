@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.field.node.podcast_episode.body
     - field.field.node.podcast_episode.field_hero
+    - field.field.node.podcast_episode.field_podcast
     - field.field.node.podcast_episode.field_podcast_album_art
     - field.field.node.podcast_episode.field_podcast_author
     - field.field.node.podcast_episode.field_podcast_category
@@ -23,7 +24,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 3
     settings:
       rows: 9
       summary_rows: 3
@@ -31,12 +32,12 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 9
+    weight: 10
     settings: {  }
     third_party_settings: {  }
   field_hero:
     type: entity_browser_file
-    weight: 1
+    weight: 2
     settings:
       entity_browser: image_browser
       field_widget_edit: true
@@ -46,9 +47,17 @@ content:
       open: true
       selection_mode: selection_append
     third_party_settings: {  }
+  field_podcast:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
   field_podcast_album_art:
     type: entity_browser_file
-    weight: 4
+    weight: 5
     settings:
       entity_browser: image_browser
       field_widget_edit: true
@@ -59,14 +68,14 @@ content:
       selection_mode: selection_append
     third_party_settings: {  }
   field_podcast_author:
-    weight: 5
+    weight: 6
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
   field_podcast_category:
-    weight: 6
+    weight: 7
     settings:
       match_operator: CONTAINS
       size: 60
@@ -74,31 +83,31 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
   field_podcast_enclosure:
-    weight: 3
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: audio_embed_field_textfield
   field_podcast_explicit:
-    weight: 7
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     type: options_select
   path:
     type: path
-    weight: 12
+    weight: 13
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 11
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 12
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -109,7 +118,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 8
+    weight: 9
     settings:
       match_operator: CONTAINS
       size: 60

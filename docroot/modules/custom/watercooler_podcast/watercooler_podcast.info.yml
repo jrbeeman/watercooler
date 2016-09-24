@@ -12,7 +12,6 @@ dependencies:
   - options
   - panelizer
   - path
-  - scheduled_updates
   - taxonomy
   - text
   - user
