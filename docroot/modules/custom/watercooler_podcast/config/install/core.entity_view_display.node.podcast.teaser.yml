@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.podcast.body
+    - field.field.node.podcast.field_hero
+    - field.field.node.podcast.field_podcast_album_art
+    - field.field.node.podcast.field_podcast_author
+    - field.field.node.podcast.field_podcast_category
+    - field.field.node.podcast.field_podcast_editor
+    - field.field.node.podcast.field_podcast_explicit
+    - field.field.node.podcast.field_podcast_keywords
+    - field.field.node.podcast.field_podcast_owner
+    - field.field.node.podcast.field_subtitle
+    - node.type.podcast
+  module:
+    - image
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+id: node.podcast.teaser
+targetEntityType: node
+bundle: podcast
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_podcast_album_art:
+    type: image
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_hero: true
+  field_podcast_author: true
+  field_podcast_category: true
+  field_podcast_editor: true
+  field_podcast_explicit: true
+  field_podcast_keywords: true
+  field_podcast_owner: true
+  field_subtitle: true

@@ -15,5 +15,6 @@ lightning_extensions:
 modules:
   - features
   - decoda
-  - media_entity_audio
+  - audio_embed_media
   - watercooler_article
+  - watercooler_podcast

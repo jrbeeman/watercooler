@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_podcast_explicit
+    - node.type.podcast_episode
+  module:
+    - options
+id: node.podcast_episode.field_podcast_explicit
+field_name: field_podcast_explicit
+entity_type: node
+bundle: podcast_episode
+label: Explicit
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

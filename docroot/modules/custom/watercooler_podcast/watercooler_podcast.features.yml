@@ -1,0 +1,4 @@
+bundle: watercooler
+excluded:
+  - scheduled_updates.scheduled_update_type.node__moderation_state
+required: true

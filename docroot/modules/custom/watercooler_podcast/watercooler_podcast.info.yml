@@ -1,0 +1,21 @@
+name: Podcast
+type: module
+core: 8.x
+dependencies:
+  - audio_embed_field
+  - entity_browser
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - options
+  - panelizer
+  - path
+  - scheduled_updates
+  - taxonomy
+  - text
+  - user
+  - watercooler_article
+  - workbench_moderation
+package: Watercooler
