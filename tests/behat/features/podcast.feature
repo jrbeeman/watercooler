@@ -15,7 +15,7 @@ Feature: Watercooler Podcast
     Then I should see a "title[0][value]" field
     And I should see a "field_subtitle[0][value]" field
     And I should see a "body[0][value]" field
-    And I should see a "field_podcast_category[0][value]" field
+    And I should see a "field_podcast_category[0][target_id]" field
     And I should see a "field_podcast_explicit" field
     And I should see a "field_podcast_owner[0][value]" field
     And I should see a "field_podcast_author[0][value]" field
@@ -29,5 +29,5 @@ Feature: Watercooler Podcast
     And I should see a "body[0][value]" field
     And I should see a "field_podcast_enclosure[0][value]" field
     And I should see a "field_podcast_author[0][value]" field
-    And I should see a "field_podcast_category[0][value]" field
+    And I should see a "field_podcast_category[0][target_id]" field
     And I should see a "field_podcast_explicit" field
