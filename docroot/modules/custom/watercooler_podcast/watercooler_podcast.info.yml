@@ -16,4 +16,5 @@ dependencies:
   - text
   - user
   - watercooler_article
-package: Watercooler
+  - workbench_moderation
+package: watercooler
