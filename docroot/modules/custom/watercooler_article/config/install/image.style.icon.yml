@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: icon
+label: Icon
+effects:
+  77137324-7f82-4b53-b1a1-b120e5bb5628:
+    uuid: 77137324-7f82-4b53-b1a1-b120e5bb5628
+    id: image_scale
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      upscale: true

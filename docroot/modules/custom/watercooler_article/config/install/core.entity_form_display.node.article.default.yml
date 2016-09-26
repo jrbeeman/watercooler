@@ -8,7 +8,6 @@ dependencies:
     - node.type.article
   module:
     - entity_browser
-    - inline_entity_form
     - path
     - text
     - workbench_moderation

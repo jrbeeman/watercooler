@@ -7,7 +7,6 @@ dependencies:
   - field
   - file
   - image
-  - inline_entity_form
   - menu_ui
   - node
   - panelizer
@@ -15,4 +14,5 @@ dependencies:
   - taxonomy
   - text
   - user
-package: Watercooler
+  - workbench_moderation
+package: watercooler
