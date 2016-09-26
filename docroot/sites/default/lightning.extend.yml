@@ -16,5 +16,5 @@ modules:
   - features
   - decoda
   - audio_embed_media
-  - watercooler_article
-  - watercooler_podcast
+#  - watercooler_article
+#  - watercooler_podcast
