@@ -358,4 +358,15 @@
 #$aliases['live'] = array(
 #    'uri' => 'http://example.com',
 #    'root' => $aliases['dev']['root'],
-#  ) + $aliases['server'];
+#  ) + $aliases['server'];// [vagrant_machine_name].local
+// [vagrant_machine_name].local
+$aliases['watercooler.local'] = array(
+  // /var/www/[vagrant_machine_name]/docroot
+  'root' => '/var/www/watercooler/docroot',
+  // vagrant_hostname
+  'uri' => 'http://watercooler.local',
+  // vagrant_hostname
+  'remote-host' => 'watercooler.local',
+  'remote-user' => 'vagrant',
+  'ssh-options' => '-o PasswordAuthentication=no -i ' . drush_server_home() . '/.vagrant.d/insecure_private_key'
+);
