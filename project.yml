@@ -4,7 +4,6 @@ project:
     human_name: Watercooler
     profile:
         name: lightning
-        contrib: true
     local:
         protocol: http
         hostname: '${project.machine_name}.localhost'
