@@ -12,14 +12,6 @@ git:
     default_branch: master
     remotes:
         - 'git@github.com:jrbeeman/watercooler.git'
-    commit_message:
-        regex: "^[^ ].{15,}\."
-        instructions: |
-            Invalid commit message. Commit messages must:
-
-            * Be at least 15 characters long and end with a period.
-
-            Valid example: Added the new picture field to the article feature.
 drush:
     aliases:
         remote: '${project.machine_name}.test'
