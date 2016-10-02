@@ -1,0 +1,33 @@
+This is an example of BBCode in action. Use it to test the Decoda filter and your configuration of it.
+
+
+[h2]A block-level heading[/h2]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget mattis urna, quis condimentum nisi. Mauris suscipit diam non turpis rhoncus pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus ligula ultrices arcu eleifend, ac consequat massa vehicula. Maecenas lacinia aliquet leo nec hendrerit. Cras sagittis nisi tristique nunc dignissim pellentesque. Integer gravida libero tortor, ac faucibus elit placerat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Pellentesque non hendrerit elit. Suspendisse sed rutrum est. Mauris ullamcorper tincidunt consectetur. Vestibulum nec pharetra massa. Curabitur ut est aliquam, facilisis leo sed, posuere ex. Curabitur at est id nisl egestas auctor id nec nulla. Vestibulum tincidunt, dolor at ultrices porta, diam ipsum feugiat sapien, vitae placerat turpis felis eu nibh. Phasellus augue enim, dapibus non velit nec, sagittis sagittis sapien. Proin ante tellus, pretium sit amet nisi eu, luctus ultrices sem. Donec et urna vel nisl consectetur molestie eu vitae lorem. Suspendisse potenti. Integer bibendum arcu quis augue hendrerit, non venenatis orci efficitur.
+
+
+Quisque id metus a ipsum egestas vulputate. Etiam nec egestas nulla. In dolor sapien, volutpat vel nulla et, pellentesque ullamcorper urna. Nulla neque augue, ultricies non condimentum vitae, aliquet id diam. Mauris sed cursus nisi. Sed non magna lacinia, congue arcu vitae, tempor purus. Quisque placerat ligula id felis interdum tempus.
+
+
+[h2]A list of various text styles[/h2]
+
+[list]
+[*][b]Bold text[/b]
+[*][i]Italics text[/i]
+[*][u]Underlined text[/u]
+[/list]
+
+[h2]Images and emoticons[/h2]
+
+[img]https://dl.dropboxusercontent.com/u/86487/images/action-panda.gif[/img]
+
+Emoticons:
+
+:) 8) :x ;)
+
+
+[h2]Censored words[/h2]
+
+Now this is a motherfucking paragraph, you shit heads.
