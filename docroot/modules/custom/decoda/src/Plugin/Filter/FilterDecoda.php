@@ -5,7 +5,6 @@ namespace Drupal\decoda\Plugin\Filter;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\filter\FilterProcessResult;
 use Drupal\filter\Plugin\FilterBase;
-use Decoda;
 
 /**
  * Provides a filter using the Decoda BBCode filter.
@@ -55,48 +54,48 @@ class FilterDecoda extends FilterBase {
    * {@inheritdoc}
    */
   public function process($text, $langcode) {
-    $decoda = new Decoda\Decoda();
-    $decoda->addFilter(new Decoda\Filter\DefaultFilter());
-    $decoda->addFilter(new Decoda\Filter\UrlFilter());
-    $decoda->addFilter(new Decoda\Filter\TextFilter());
+    $decoda = new \Decoda\Decoda();
+    $decoda->addFilter(new \Decoda\Filter\DefaultFilter());
+    $decoda->addFilter(new \Decoda\Filter\UrlFilter());
+    $decoda->addFilter(new \Decoda\Filter\TextFilter());
 
     if ($this->settings['decoda_filters']['EmailFilter']) {
-      $decoda->addFilter(new Decoda\Filter\EmailFilter());
+      $decoda->addFilter(new \Decoda\Filter\EmailFilter());
     }
 
     if ($this->settings['decoda_filters']['ImageFilter']) {
-      $decoda->addFilter(new Decoda\Filter\ImageFilter());
+      $decoda->addFilter(new \Decoda\Filter\ImageFilter());
     }
 
     if ($this->settings['decoda_filters']['BlockFilter']) {
-      $decoda->addFilter(new Decoda\Filter\BlockFilter());
+      $decoda->addFilter(new \Decoda\Filter\BlockFilter());
     }
 
     if ($this->settings['decoda_filters']['VideoFilter']) {
-      $decoda->addFilter(new Decoda\Filter\VideoFilter());
+      $decoda->addFilter(new \Decoda\Filter\VideoFilter());
     }
 
     if ($this->settings['decoda_filters']['CodeFilter']) {
-      $decoda->addFilter(new Decoda\Filter\CodeFilter());
+      $decoda->addFilter(new \Decoda\Filter\CodeFilter());
     }
 
     if ($this->settings['decoda_filters']['QuoteFilter']) {
-      $decoda->addFilter(new Decoda\Filter\QuoteFilter());
+      $decoda->addFilter(new \Decoda\Filter\QuoteFilter());
     }
 
     if ($this->settings['decoda_filters']['ListFilter']) {
-      $decoda->addFilter(new Decoda\Filter\ListFilter());
+      $decoda->addFilter(new \Decoda\Filter\ListFilter());
     }
 
     if ($this->settings['decoda_filters']['TableFilter']) {
-      $decoda->addFilter(new Decoda\Filter\TableFilter());
+      $decoda->addFilter(new \Decoda\Filter\TableFilter());
     }
 
-    $decoda->addHook(new Decoda\Hook\CensorHook());
-    $decoda->addHook(new Decoda\Hook\ClickableHook());
+    $decoda->addHook(new \Decoda\Hook\CensorHook());
+    $decoda->addHook(new \Decoda\Hook\ClickableHook());
 
     $decoda->reset($text);
-    $decoda->addHook(new Decoda\Hook\EmoticonHook(array('path' => '/sites/default/emoticons/')));
+    $decoda->addHook(new \Decoda\Hook\EmoticonHook(array('path' => '/sites/default/emoticons/')));
     $result = $decoda->parse();
 
     return new FilterProcessResult($result);
