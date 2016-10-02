@@ -44,7 +44,7 @@ class FilterDecoda extends FilterBase {
       '#default_value' => isset($this->settings['decoda_filters']) ? $this->settings['decoda_filters'] : array(
         'EmailFilter',
         'BlockFilter',
-        'ListFilter'
+        'ListFilter',
       ),
     );
 
