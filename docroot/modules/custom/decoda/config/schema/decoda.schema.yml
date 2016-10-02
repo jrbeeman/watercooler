@@ -1,0 +1,13 @@
+filter_settings.filter_decoda:
+  type: filter
+  label: 'Decoda filter'
+  mapping:
+    decoda_filters:
+      type: sequence
+      label: 'Enabled Decoda filters'
+    decoda_config_path:
+      type: string
+      label: 'Decoda custom config path'
+    decoda_emotics_path:
+      type: string
+      label: 'Decoda emoticons folder path'
