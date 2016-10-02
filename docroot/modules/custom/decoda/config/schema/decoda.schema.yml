@@ -1,0 +1,7 @@
+filter_settings.filter_decoda:
+  type: filter
+  label: 'Decoda filter'
+  mapping:
+    decoda_filters:
+      type: sequence
+      label: 'Enabled Decoda filters'
