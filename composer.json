@@ -43,7 +43,6 @@
         "drupal/libraries": "8.x",
         "drupal/flag": "8.4.*",
         "drupal/recaptcha": "~8",
-        "drupal/zurb_foundation": "8.6.*",
         "drupal/audio_embed_field": "^8.0",
         "drupal/cog": "~8"
     },
