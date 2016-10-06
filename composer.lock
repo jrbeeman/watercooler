@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "acquia/blt",
-            "version": "8.4.7",
+            "version": "8.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "1ee81236c4aaab65b56322d1bc4ca65f733893da"
+                "reference": "50e711f450b0cfeebd1254af0e39e9765e47cdf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/1ee81236c4aaab65b56322d1bc4ca65f733893da",
-                "reference": "1ee81236c4aaab65b56322d1bc4ca65f733893da",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/50e711f450b0cfeebd1254af0e39e9765e47cdf8",
+                "reference": "50e711f450b0cfeebd1254af0e39e9765e47cdf8",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +71,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2016-10-05 19:01:03"
+            "time": "2016-10-05 23:29:43"
         },
         {
             "name": "alchemy/zippy",
