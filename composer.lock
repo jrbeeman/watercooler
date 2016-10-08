@@ -1758,7 +1758,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/flag",
-                "reference": "bc766926efab624f6962cdef2ff30052ed5d2f01"
+                "reference": "4ac53fc001d6804ab048725d8a66425a8e9572cd"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1785,7 +1785,7 @@
             ],
             "description": "Create customized flags that users can set on entities.",
             "homepage": "https://www.drupal.org/project/flag",
-            "time": "2016-09-30 10:26:47"
+            "time": "2016-10-07 23:00:00"
         },
         {
             "name": "drupal/inline_entity_form",
@@ -2080,20 +2080,22 @@
         },
         {
             "name": "drupal/markdown",
-            "version": "8.1.0",
+            "version": "8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/markdown",
-                "reference": "2709041c7bb2c01de6f3559d2c3eab4a52cb4788"
+                "reference": "a3c0c1b1b770772e2ab0d676c8431f7f179652d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/markdown-8.x-1.0.zip",
-                "reference": "2709041c7bb2c01de6f3559d2c3eab4a52cb4788",
+                "url": "https://ftp.drupal.org/files/projects/markdown-8.x-1.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
-                "drupal/core": "8.*"
+                "drupal/core": "8.*",
+                "league/commonmark": "^0.15.0",
+                "michelf/php-markdown": "^1.6"
             },
             "type": "drupal-module",
             "extra": {
@@ -2106,8 +2108,8 @@
                 "GPL-2.0+"
             ],
             "description": "Allows content to be submitted using Markdown, a simple plain-text syntax that is transformed into valid HTML.",
-            "homepage": "http://drupal.org/project/markdown",
-            "time": "2016-02-04 01:39:10"
+            "homepage": "https://www.drupal.org/project/markdown",
+            "time": "2016-10-06 13:29:34"
         },
         {
             "name": "drupal/media_entity",
@@ -3299,6 +3301,75 @@
             "time": "2015-08-03 21:35:18"
         },
         {
+            "name": "league/commonmark",
+            "version": "0.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "19fb96643beba24e681c371dc133e25409742664"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/19fb96643beba24e681c371dc133e25409742664",
+                "reference": "19fb96643beba24e681c371dc133e25409742664",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.8"
+            },
+            "replace": {
+                "colinodell/commonmark-php": "*"
+            },
+            "require-dev": {
+                "cebe/markdown": "~1.0",
+                "erusev/parsedown": "~1.0",
+                "jgm/commonmark": "0.26",
+                "michelf/php-markdown": "~1.4",
+                "mikehaertl/php-shellcommand": "~1.2.0",
+                "phpunit/phpunit": "~4.3|~5.0",
+                "scrutinizer/ocular": "~1.1",
+                "symfony/finder": "~2.3|~3.0"
+            },
+            "suggest": {
+                "league/commonmark-extras": "Library of useful extensions including smart punctuation"
+            },
+            "bin": [
+                "bin/commonmark"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.16-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Markdown parser for PHP based on the CommonMark spec",
+            "homepage": "https://github.com/thephpleague/commonmark",
+            "keywords": [
+                "commonmark",
+                "markdown",
+                "parser"
+            ],
+            "time": "2016-09-14 15:44:35"
+        },
+        {
             "name": "masterminds/html5",
             "version": "2.2.2",
             "source": {
@@ -4344,16 +4415,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.5.7",
+            "version": "5.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3f67cee782c9abfaee5e32fd2f57cdd54bc257ba"
+                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3f67cee782c9abfaee5e32fd2f57cdd54bc257ba",
-                "reference": "3f67cee782c9abfaee5e32fd2f57cdd54bc257ba",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60c32c5b5e79c2248001efa2560f831da11cc2d7",
+                "reference": "60c32c5b5e79c2248001efa2560f831da11cc2d7",
                 "shasum": ""
             },
             "require": {
@@ -4387,7 +4458,6 @@
                 "ext-pdo": "*"
             },
             "suggest": {
-                "ext-tidy": "*",
                 "ext-xdebug": "*",
                 "phpunit/php-invoker": "~1.1"
             },
@@ -4397,7 +4467,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.5.x-dev"
+                    "dev-master": "5.6.x-dev"
                 }
             },
             "autoload": {
@@ -4423,7 +4493,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-10-03 13:04:15"
+            "time": "2016-10-07 13:03:26"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4587,15 +4657,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "47cd1dcac8df83b6f8a5fe85e3b743d079160643"
+                "reference": "9b2c146291b6a5a1d22a837e86ca77ade3941f47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/47cd1dcac8df83b6f8a5fe85e3b743d079160643",
-                "reference": "47cd1dcac8df83b6f8a5fe85e3b743d079160643",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9b2c146291b6a5a1d22a837e86ca77ade3941f47",
+                "reference": "9b2c146291b6a5a1d22a837e86ca77ade3941f47",
                 "shasum": ""
             },
             "conflict": {
+                "adodb/adodb-php": "<5.20.6",
                 "amphp/artax": ">=2,<2.0.4|>0.7.1,<1.0.4",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
                 "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
@@ -4706,7 +4777,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2016-09-30 13:56:41"
+            "time": "2016-10-07 16:42:29"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -8241,16 +8312,16 @@
         },
         {
             "name": "geerlingguy/drupal-vm",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/geerlingguy/drupal-vm.git",
-                "reference": "81812990a5a4ca704c0f3012a6fcb988f07d8a95"
+                "reference": "d1288ddb1322c14275d53a93f364c83df0ec7e38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/81812990a5a4ca704c0f3012a6fcb988f07d8a95",
-                "reference": "81812990a5a4ca704c0f3012a6fcb988f07d8a95",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/d1288ddb1322c14275d53a93f364c83df0ec7e38",
+                "reference": "d1288ddb1322c14275d53a93f364c83df0ec7e38",
                 "shasum": ""
             },
             "type": "project",
@@ -8276,7 +8347,7 @@
                 "virtual machine",
                 "vm"
             ],
-            "time": "2016-10-05 14:57:19"
+            "time": "2016-10-06 17:57:07"
         },
         {
             "name": "instaclick/php-webdriver",
