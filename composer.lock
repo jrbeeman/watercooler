@@ -995,7 +995,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/acquia_connector-8.x-1.5.zip",
-                "reference": null,
+                "reference": "0f3c8d8a2b3b2e9e990ea7998249650977ae5404",
                 "shasum": null
             },
             "require": {
@@ -1034,7 +1034,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.32.zip",
-                "reference": null,
+                "reference": "451dd779e5aaff7a9085deded258a2a113d8618e",
                 "shasum": null
             },
             "require": {
@@ -1333,16 +1333,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.2.0",
+            "version": "8.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal-composer/drupal-core.git",
-                "reference": "2fde0cab6c55bf613ca2eb94bb9038bb0ee44b25"
+                "reference": "a5549f2a541c0fbb0565e1576a63b917813fadba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/2fde0cab6c55bf613ca2eb94bb9038bb0ee44b25",
-                "reference": "2fde0cab6c55bf613ca2eb94bb9038bb0ee44b25",
+                "url": "https://api.github.com/repos/drupal-composer/drupal-core/zipball/a5549f2a541c0fbb0565e1576a63b917813fadba",
+                "reference": "a5549f2a541c0fbb0565e1576a63b917813fadba",
                 "shasum": ""
             },
             "require": {
@@ -1511,7 +1511,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2016-10-05 09:36:15"
+            "time": "2016-10-11 10:18:49"
         },
         {
             "name": "drupal/ctools",
@@ -1721,7 +1721,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/features-8.x-3.0-rc1.zip",
-                "reference": null,
+                "reference": "77534a3a8a7563315a4e6da250066e34be736a7c",
                 "shasum": null
             },
             "require": {
@@ -1758,7 +1758,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/flag",
-                "reference": "4ac53fc001d6804ab048725d8a66425a8e9572cd"
+                "reference": "ef18442efaf52c0b5fcf5f879d669b0fd13e625c"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1785,7 +1785,7 @@
             ],
             "description": "Create customized flags that users can set on entities.",
             "homepage": "https://www.drupal.org/project/flag",
-            "time": "2016-10-07 23:00:00"
+            "time": "2016-10-08 13:09:02"
         },
         {
             "name": "drupal/inline_entity_form",
@@ -1878,7 +1878,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/libraries",
-                "reference": "90a19373bd0166568bc01e1b33adbe315a8e8a51"
+                "reference": "fa93a5aec2cfcfd5717e42c7112e381487fed9fd"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1895,7 +1895,7 @@
             ],
             "description": "Allows version-dependent and shared usage of external libraries.",
             "homepage": "http://drupal.org/project/libraries",
-            "time": "2016-09-11 00:47:59"
+            "time": "2016-10-10 20:01:24"
         },
         {
             "name": "drupal/lightning",
@@ -1908,7 +1908,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.06.zip",
-                "reference": null,
+                "reference": "19d6e3f0c4e0da942070009d6bfa531256a5ead7",
                 "shasum": null
             },
             "require": {
@@ -2089,7 +2089,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/markdown-8.x-1.1.zip",
-                "reference": null,
+                "reference": "a3c0c1b1b770772e2ab0d676c8431f7f179652d8",
                 "shasum": null
             },
             "require": {
@@ -2469,7 +2469,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/panels-8.x-3.0-beta5.zip",
-                "reference": null,
+                "reference": "9de5382bf248af198391a22be27d770f94396dbc",
                 "shasum": null
             },
             "require": {
@@ -3039,16 +3039,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.1",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427"
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3f808fba627f2c5b69e2501217bf31af349c1427",
-                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
                 "shasum": ""
             },
             "require": {
@@ -3097,7 +3097,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-07-15 17:22:37"
+            "time": "2016-10-08 15:01:37"
         },
         {
             "name": "guzzlehttp/promises",
@@ -3736,16 +3736,16 @@
         },
         {
             "name": "phing/phing",
-            "version": "2.15.0",
+            "version": "2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "bbfcaee391123220fc54e9c6feffeeea3c8775b7"
+                "reference": "16f6372d9bf71783abea98fdd8cd9cb4ecb3bf41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/bbfcaee391123220fc54e9c6feffeeea3c8775b7",
-                "reference": "bbfcaee391123220fc54e9c6feffeeea3c8775b7",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/16f6372d9bf71783abea98fdd8cd9cb4ecb3bf41",
+                "reference": "16f6372d9bf71783abea98fdd8cd9cb4ecb3bf41",
                 "shasum": ""
             },
             "require": {
@@ -3825,7 +3825,7 @@
                 "task",
                 "tool"
             ],
-            "time": "2016-09-14 19:38:14"
+            "time": "2016-10-11 09:24:10"
         },
         {
             "name": "php-instagram-api/php-instagram-api",
@@ -4497,16 +4497,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "03500345483e1e17b52e2e4d34a89c9408ab2902"
+                "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/03500345483e1e17b52e2e4d34a89c9408ab2902",
-                "reference": "03500345483e1e17b52e2e4d34a89c9408ab2902",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
+                "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
                 "shasum": ""
             },
             "require": {
@@ -4552,7 +4552,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-10-04 11:03:26"
+            "time": "2016-10-09 07:01:45"
         },
         {
             "name": "psr/http-message",
@@ -4606,16 +4606,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
             "require": {
@@ -4649,7 +4649,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-09-19 16:02:08"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "roave/security-advisories",
@@ -7224,16 +7224,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "a60da179c37f2c4e44ef734d0b92824a58943f7f"
+                "reference": "969ff423d3f201da3ff718a5831bb999bb0669b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/a60da179c37f2c4e44ef734d0b92824a58943f7f",
-                "reference": "a60da179c37f2c4e44ef734d0b92824a58943f7f",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/969ff423d3f201da3ff718a5831bb999bb0669b0",
+                "reference": "969ff423d3f201da3ff718a5831bb999bb0669b0",
                 "shasum": ""
             },
             "require": {
@@ -7270,7 +7270,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2016-09-07 17:57:29"
+            "time": "2016-10-11 13:25:21"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -8312,16 +8312,16 @@
         },
         {
             "name": "geerlingguy/drupal-vm",
-            "version": "3.3.2",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/geerlingguy/drupal-vm.git",
-                "reference": "d1288ddb1322c14275d53a93f364c83df0ec7e38"
+                "reference": "ac56269b0cc4468e384d7b8640456d78481d5f3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/d1288ddb1322c14275d53a93f364c83df0ec7e38",
-                "reference": "d1288ddb1322c14275d53a93f364c83df0ec7e38",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/ac56269b0cc4468e384d7b8640456d78481d5f3c",
+                "reference": "ac56269b0cc4468e384d7b8640456d78481d5f3c",
                 "shasum": ""
             },
             "type": "project",
@@ -8347,7 +8347,7 @@
                 "virtual machine",
                 "vm"
             ],
-            "time": "2016-10-06 17:57:07"
+            "time": "2016-10-12 22:15:20"
         },
         {
             "name": "instaclick/php-webdriver",
@@ -8413,12 +8413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jakoch/phantomjs-installer.git",
-                "reference": "5e085db52f2c2ec40480b50b3d9f9684bd752959"
+                "reference": "aeaf5cc45d99353f9b760edc727b37e3e8615596"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jakoch/phantomjs-installer/zipball/5e085db52f2c2ec40480b50b3d9f9684bd752959",
-                "reference": "5e085db52f2c2ec40480b50b3d9f9684bd752959",
+                "url": "https://api.github.com/repos/jakoch/phantomjs-installer/zipball/aeaf5cc45d99353f9b760edc727b37e3e8615596",
+                "reference": "aeaf5cc45d99353f9b760edc727b37e3e8615596",
                 "shasum": ""
             },
             "require": {
@@ -8455,7 +8455,7 @@
                 "headless",
                 "phantomjs"
             ],
-            "time": "2016-10-03 12:42:21"
+            "time": "2016-10-12 02:01:43"
         },
         {
             "name": "jakub-onderka/php-console-color",
