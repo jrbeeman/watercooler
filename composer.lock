@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "acquia/blt",
-            "version": "8.4.8",
+            "version": "8.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "50e711f450b0cfeebd1254af0e39e9765e47cdf8"
+                "reference": "417818d5f3375e317aaefa785bf7a6118d8a317e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/50e711f450b0cfeebd1254af0e39e9765e47cdf8",
-                "reference": "50e711f450b0cfeebd1254af0e39e9765e47cdf8",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/417818d5f3375e317aaefa785bf7a6118d8a317e",
+                "reference": "417818d5f3375e317aaefa785bf7a6118d8a317e",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +71,7 @@
                 "template",
                 "testing"
             ],
-            "time": "2016-10-05 23:29:43"
+            "time": "2016-10-07 00:03:31"
         },
         {
             "name": "alchemy/zippy",
@@ -1711,6 +1711,34 @@
             "time": "2016-09-08 18:41:50"
         },
         {
+            "name": "drupal/entity_storage_migrate",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entity_storage_migrate.git",
+                "reference": "792dd730f32c737acef1d7292e91e2502900ff03"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "This module makes it possible to install modules that provide new entity storage handlers on sites that already have entity data on the site.",
+            "homepage": "http://drupal.org/project/entity_storage_migrate",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-08-11 08:38:41"
+        },
+        {
             "name": "drupal/features",
             "version": "8.3.0-rc1",
             "source": {
@@ -1819,16 +1847,42 @@
             "time": "2016-04-18 21:57:48"
         },
         {
+            "name": "drupal/key_value",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/key_value.git",
+                "reference": "e5cf1d9918c63869f1a265bb82c40b25370a5dea"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/serialization": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Extends the core key-value API with a backend for lists and sorted sets that you can do range queries on.",
+            "homepage": "https://www.drupal.org/project/key_value",
+            "time": "2015-12-05 00:22:40"
+        },
+        {
             "name": "drupal/layout_plugin",
-            "version": "8.1.0-alpha22",
+            "version": "8.1.0-alpha23",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/layout_plugin",
-                "reference": "90be55a68dd33d3564c26fab77573b62f6cda77e"
+                "reference": "a0a5ee04d162b90b690a09d1db29d541e9d2773c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha22.zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1836,12 +1890,10 @@
                 "drupal/core": "8.*"
             },
             "replace": {
-                "drupal/block_page_layout": "self.version",
                 "drupal/layout_plugin_example": "self.version"
             },
             "suggest": {
-                "drupal/core": "Required by drupal/block_page_layout, drupal/layout_plugin_example",
-                "drupal/page_manager": "Required by drupal/block_page_layout"
+                "drupal/core": "Required by drupal/layout_plugin_example"
             },
             "type": "drupal-module",
             "extra": {
@@ -1864,13 +1916,13 @@
                     "name": "Fredrik Lassen"
                 }
             ],
-            "description": "A registry for layout plugins.",
+            "description": "Provides a way for modules or themes to register layouts.",
             "homepage": "https://www.drupal.org/project/layout_plugin",
             "keywords": [
                 "layout",
                 "php"
             ],
-            "time": "2016-01-11 16:56:15"
+            "time": "2016-10-03 18:36:43"
         },
         {
             "name": "drupal/libraries",
@@ -1899,16 +1951,16 @@
         },
         {
             "name": "drupal/lightning",
-            "version": "8.1.06",
+            "version": "8.1.11",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lightning.git",
-                "reference": "19d6e3f0c4e0da942070009d6bfa531256a5ead7"
+                "reference": "410f6399eecdcb587341f862af19af2fa9d80029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.06.zip",
-                "reference": "19d6e3f0c4e0da942070009d6bfa531256a5ead7",
+                "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.11.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1932,6 +1984,7 @@
                 "drupal/entity_browser": "8.1.0-alpha9",
                 "drupal/entity_embed": "^8.1.0",
                 "drupal/entity_reference": "8.*",
+                "drupal/entity_storage_migrate": "dev-8.x-1.x",
                 "drupal/features": "^8.3.0",
                 "drupal/field_ui": "8.*",
                 "drupal/file": "8.*",
@@ -1939,7 +1992,8 @@
                 "drupal/history": "8.*",
                 "drupal/image": "8.*",
                 "drupal/inline_entity_form": "^8.1.0",
-                "drupal/layout_plugin": "8.1.0-alpha22",
+                "drupal/key_value": "^8.1.0",
+                "drupal/layout_plugin": "8.1.0-alpha23",
                 "drupal/media_entity": "^8.1.0",
                 "drupal/media_entity_document": "^8.1.0",
                 "drupal/media_entity_image": "^8.1.0",
@@ -1948,6 +2002,7 @@
                 "drupal/menu_link_content": "8.*",
                 "drupal/menu_ui": "8.*",
                 "drupal/metatag": "8.1.0-beta10",
+                "drupal/multiversion": "8.1.0-alpha10",
                 "drupal/node": "8.*",
                 "drupal/options": "8.*",
                 "drupal/page_cache": "8.*",
@@ -1958,6 +2013,7 @@
                 "drupal/pathauto": "^8.1.0",
                 "drupal/quickedit": "8.*",
                 "drupal/rdf": "8.*",
+                "drupal/replication": "8.1.0-alpha4",
                 "drupal/scheduled_updates": "8.1.0-alpha5",
                 "drupal/shortcut": "8.*",
                 "drupal/taxonomy": "8.*",
@@ -1968,7 +2024,8 @@
                 "drupal/views": "8.*",
                 "drupal/views_infinite_scroll": "^8.1.1",
                 "drupal/views_ui": "8.*",
-                "drupal/workbench_moderation": "8.1.1"
+                "drupal/workbench_moderation": "8.1.1",
+                "drupal/workspace": "8.1.0-alpha3"
             },
             "replace": {
                 "drupal/lightning_core": "self.version",
@@ -1979,6 +2036,7 @@
                 "drupal/lightning_media_instagram": "self.version",
                 "drupal/lightning_media_twitter": "self.version",
                 "drupal/lightning_media_video": "self.version",
+                "drupal/lightning_preview": "self.version",
                 "drupal/lightning_workflow": "self.version"
             },
             "require-dev": {
@@ -2000,7 +2058,7 @@
                 "symfony/css-selector": "~2.8"
             },
             "suggest": {
-                "drupal/core": "Required by drupal/lightning_core, drupal/lightning_layout, drupal/lightning_media, drupal/lightning_media_document, drupal/lightning_media_image, drupal/lightning_media_instagram, drupal/lightning_media_twitter, drupal/lightning_media_video, drupal/lightning_workflow",
+                "drupal/core": "Required by drupal/lightning_core, drupal/lightning_layout, drupal/lightning_media, drupal/lightning_media_document, drupal/lightning_media_image, drupal/lightning_media_instagram, drupal/lightning_media_twitter, drupal/lightning_media_video, drupal/lightning_preview, drupal/lightning_workflow",
                 "drupal/entity_browser": "Required by drupal/lightning_media",
                 "drupal/entity_embed": "Required by drupal/lightning_media",
                 "drupal/file": "Required by drupal/lightning_media_document",
@@ -2008,6 +2066,7 @@
                 "drupal/inline_entity_form": "Required by drupal/lightning_media, drupal/lightning_workflow",
                 "drupal/lightning_core": "Required by drupal/lightning_layout, drupal/lightning_media, drupal/lightning_workflow",
                 "drupal/lightning_media": "Required by drupal/lightning_media_document, drupal/lightning_media_image, drupal/lightning_media_instagram, drupal/lightning_media_twitter, drupal/lightning_media_video",
+                "drupal/lightning_workflow": "Required by drupal/lightning_preview",
                 "drupal/media_entity": "Required by drupal/lightning_media",
                 "drupal/media_entity_document": "Required by drupal/lightning_media_document",
                 "drupal/media_entity_image": "Required by drupal/lightning_media_image",
@@ -2024,7 +2083,8 @@
                 "drupal/user": "Required by drupal/lightning_core, drupal/lightning_media",
                 "drupal/video_embed_media": "Required by drupal/lightning_media_video",
                 "drupal/views_infinite_scroll": "Required by drupal/lightning_media",
-                "drupal/workbench_moderation": "Required by drupal/lightning_workflow"
+                "drupal/workbench_moderation": "Required by drupal/lightning_workflow",
+                "drupal/workspace": "Required by drupal/lightning_preview"
             },
             "type": "drupal-profile",
             "extra": {
@@ -2037,9 +2097,6 @@
                     ]
                 },
                 "patches": {
-                    "drupal/layout_plugin": {
-                        "2811423: Add public getLayout() method to LayoutBase - via mega patch": "https://www.drupal.org/files/issues/2747739-26--layout_plugin-alpha22-to-96a5cf90.patch"
-                    },
                     "drupal/panelizer": {
                         "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panelizer--alpha2-1ddfa61--2747739-5.patch",
                         "2701349 - Generate new UUIDs for displays when switching from default to field storage": "https://www.drupal.org/files/issues/2701349-2.patch",
@@ -2064,10 +2121,24 @@
                     },
                     "drupal/metatag": {
                         "2786795 - DrupalConsole integration breaks Drush": "https://www.drupal.org/files/issues/metatag-deactivate_drupalconsole_services_0.patch"
+                    },
+                    "drupal/workspace": {
+                        "2791789 - Workspace should report conflicts before replication": "https://www.drupal.org/files/issues/2791789-34.patch"
+                    },
+                    "drupal/replication": {
+                        "2814055 - Allow modules to react to replication events": "https://www.drupal.org/files/issues/2814055-2.patch"
+                    },
+                    "drupal/core": {
+                        "2818031 - Trailing slashes can cause FileSystem::mkdir() to return a false negative": "https://www.drupal.org/files/issues/2818031-6.patch"
                     }
                 },
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\LightningExtension\\": "src/LightningExtension"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -2076,7 +2147,7 @@
             ],
             "description": "A fast and feature-rich Drupal distribution.",
             "homepage": "https://www.drupal.org/project/lightning",
-            "time": "2016-10-05 15:38:32"
+            "time": "2016-10-14 18:31:50"
         },
         {
             "name": "drupal/markdown",
@@ -2356,6 +2427,9 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2786795 - DrupalConsole integration breaks Drush": "https://www.drupal.org/files/issues/metatag-deactivate_drupalconsole_services_0.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -2376,6 +2450,41 @@
                 "seo"
             ],
             "time": "2016-08-22 17:45:58"
+        },
+        {
+            "name": "drupal/multiversion",
+            "version": "8.1.0-alpha10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/multiversion.git",
+                "reference": "1eb13a4919e27aef8d2557747402bd96686e07b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/multiversion-8.x-1.0-alpha10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/entity_storage_migrate": "8.*",
+                "drupal/key_value": "8.*",
+                "drupal/serialization": "8.*",
+                "drupal/system": ">=8.1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Extends the revision support for content entities.",
+            "homepage": "https://www.drupal.org/project/multiversion",
+            "time": "2016-08-04 07:28:39"
         },
         {
             "name": "drupal/page_manager",
@@ -2448,6 +2557,13 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-3.x": "8.3.x-dev"
+                },
+                "patches_applied": {
+                    "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panelizer--alpha2-1ddfa61--2747739-5.patch",
+                    "2701349 - Generate new UUIDs for displays when switching from default to field storage": "https://www.drupal.org/files/issues/2701349-2.patch",
+                    "2700597 - Explicitly set the Panels IPE URL root when saving in Panelizer": "https://www.drupal.org/files/issues/panelizer-ipe-url-root-handling.patch",
+                    "2664682 - Implement admin UI for editing Panelizer defaults": "https://www.drupal.org/files/issues/2664682-55.patch",
+                    "2793841 - Properly integrate with Panels IPE": "https://www.drupal.org/files/issues/panelizer-panels-ipe-tempstore-id.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -2591,6 +2707,41 @@
             "time": "2016-07-30 06:17:09"
         },
         {
+            "name": "drupal/replication",
+            "version": "8.1.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/replication.git",
+                "reference": "6361d76da3571301f679e3cea81c5b6f4a6f8b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/replication-8.x-1.0-alpha4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/multiversion": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2814055 - Allow modules to react to replication events": "https://www.drupal.org/files/issues/2814055-2.patch"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides services and entities types to assist with and log content replication.",
+            "homepage": "http://drupal.org/project/replication",
+            "time": "2016-10-05 06:09:24"
+        },
+        {
             "name": "drupal/scheduled_updates",
             "version": "8.1.0-alpha5",
             "source": {
@@ -2613,6 +2764,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2674874 - Issue saving Schedule Update Type form": "https://www.drupal.org/files/issues/schedule_updates-save_type-2674874-2.patch",
+                    "2720169 - Scheduled Update Type entity should not have canonical link template": "https://www.drupal.org/files/issues/scheduled_updates-no-canonical-link-for-update-type.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -2869,6 +3024,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2668006 - Provide logical access control for when IPE should be applied to moderated nodes": "https://www.drupal.org/files/issues/2668006-2.patch",
+                    "2780691 - Incorrect EntityRevision paramconverter service definition causes a fatal error": "https://www.drupal.org/files/issues/workbench_moderation-invalid_service_definition.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -2881,6 +3040,46 @@
                 "Drupal"
             ],
             "time": "2016-06-28 04:04:37"
+        },
+        {
+            "name": "drupal/workspace",
+            "version": "8.1.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/workspace",
+                "reference": "6b21cbeada234f6bfb0e3ca24ddd11033578c9ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/workspace-8.x-1.0-alpha3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/datetime": "8.*",
+                "drupal/options": "8.*",
+                "drupal/replication": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2791789 - Workspace should report conflicts before replication": "https://www.drupal.org/files/issues/2791789-34.patch"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides the ability to have multiple workspaces on a single site to facilitate things like full-site preview and content staging.",
+            "homepage": "https://www.drupal.org/project/workspace",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-10-05 06:23:30"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3736,16 +3935,16 @@
         },
         {
             "name": "phing/phing",
-            "version": "2.15.1",
+            "version": "2.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "16f6372d9bf71783abea98fdd8cd9cb4ecb3bf41"
+                "reference": "0999ab4e94e609dc00998e3d1b88df843054db7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/16f6372d9bf71783abea98fdd8cd9cb4ecb3bf41",
-                "reference": "16f6372d9bf71783abea98fdd8cd9cb4ecb3bf41",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/0999ab4e94e609dc00998e3d1b88df843054db7c",
+                "reference": "0999ab4e94e609dc00998e3d1b88df843054db7c",
                 "shasum": ""
             },
             "require": {
@@ -3825,7 +4024,7 @@
                 "task",
                 "tool"
             ],
-            "time": "2016-10-11 09:24:10"
+            "time": "2016-10-13 09:01:45"
         },
         {
             "name": "php-instagram-api/php-instagram-api",
