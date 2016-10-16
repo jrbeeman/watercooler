@@ -1786,7 +1786,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/flag",
-                "reference": "ef18442efaf52c0b5fcf5f879d669b0fd13e625c"
+                "reference": "1a1983e12d1f81fde5fb1af4f4b8851aa8cdf448"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1813,7 +1813,7 @@
             ],
             "description": "Create customized flags that users can set on entities.",
             "homepage": "https://www.drupal.org/project/flag",
-            "time": "2016-10-08 13:09:02"
+            "time": "2016-10-15 13:20:11"
         },
         {
             "name": "drupal/inline_entity_form",
