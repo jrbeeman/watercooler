@@ -364,9 +364,9 @@ $aliases['watercooler.local'] = array(
   // /var/www/[vagrant_machine_name]/docroot
   'root' => '/var/www/watercooler/docroot',
   // vagrant_hostname
-  'uri' => 'http://watercooler.local',
+  'uri' => 'http://watercooler.localhost',
   // vagrant_hostname
-  'remote-host' => 'watercooler.local',
+  'remote-host' => 'watercooler.localhost',
   'remote-user' => 'vagrant',
   'ssh-options' => '-o PasswordAuthentication=no -i ' . drush_server_home() . '/.vagrant.d/insecure_private_key'
 );
