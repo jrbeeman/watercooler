@@ -25,13 +25,13 @@
     "require": {
         "acquia/blt": "^8.3",
         "composer/installers": "^1.0.20",
-        "cweagans/composer-patches": "^1.5.0",
-        "drupal/acquia_connector": "8.1.*",
-        "drupal/acsf": "~8.1",
+        "cweagans/composer-patches": "dev-master#5456199acdcc16b243814aa45259f4c56272a634 as 1.5.0",
+        "drupal/acquia_connector": "^8.1.5",
+        "drupal/acsf": "^8.1.32",
         "drupal/console": "1.0.0-beta5",
         "drupal/core": "~8",
-        "drupal/lightning": "~8",
-        "drupal/memcache": "8.*",
+        "drupal/lightning": "8.1.x-dev",
+        "drupal/memcache": "^8.2.0-alpha2",
         "drupal/search_api": "8.1.0-alpha14",
         "drupal/search_api_solr": "8.1.0-alpha3",
         "drupal/security_review": "8.*",
@@ -44,28 +44,29 @@
         "drupal/flag": "8.4.*",
         "drupal/recaptcha": "~8",
         "drupal/audio_embed_field": "^8.0",
-        "drupal/cog": "~8",
-        "drupal/features": "~8.3.0-beta9"
+        "drupal/cog": "^8.1.0",
+        "drupal/features": "^8.3.0-beta9"
     },
     "require-dev": {
-        "behat/behat": "3.0.*",
+        "behat/behat": "^3.1",
         "behat/mink": "~1.7",
         "behat/mink-browserkit-driver": "*",
         "behat/mink-extension": "*",
         "behat/mink-goutte-driver": "*",
-        "behat/mink-selenium2-driver": "*",
+        "behat/mink-selenium2-driver": "^1.3.1",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "drupal/coder": "~8.2",
-        "drupal/drupal-extension": "~3.0",
+        "drupal/coder": "^8.2.9",
+        "drupal/drupal-extension": "^3.2",
         "drush/drush": "^9.0",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
+        "drupal-composer/drupal-scaffold": "^2.1.0",
         "jakoch/phantomjs-installer": "dev-master as 1.9.8",
-        "jarnaiz/behat-junit-formatter": "^1.2",
+        "jarnaiz/behat-junit-formatter": "^1.3.2",
         "phing/phing": "~2",
-        "phpunit/phpunit": "~5.4",
-        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "^5.4",
+        "squizlabs/php_codesniffer": "^2.7",
         "drupal/devel": "~8",
-        "geerlingguy/drupal-vm": "~3.1"
+        "geerlingguy/drupal-vm": "~3.1",
+        "se/selenium-server-standalone": "^2.53"
     },
     "autoload-dev": {
         "psr-4": {
@@ -102,6 +103,9 @@
             "require": [
                 "docroot/modules/custom/decoda/composer.json"
             ]
+        },
+        "blt": {
+            "update": true
         }
     },
     "scripts": {
@@ -121,6 +125,7 @@
         "blt-alias": "blt install-alias -Dcreate_alias=true",
         "nuke": [
             "rm -rf vendor composer.lock",
+            "@composer clearcache",
             "@composer install"
         ]
     },
