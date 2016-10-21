@@ -1,5 +1,7 @@
 # Installation
 
+First, [install BLT dependencies](http://blt.readthedocs.io/en/latest/INSTALL/#installing-requirements).
+
 ```
 composer install;
 composer blt-alias;
