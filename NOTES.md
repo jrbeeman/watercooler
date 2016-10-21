@@ -7,7 +7,7 @@ blt vm;
 blt local:setup;
 ```
 
-# Running tests within the DrupalVM
+# Running tests
 
 `drush @watercooler.local ssh blt tests:behat`
 
