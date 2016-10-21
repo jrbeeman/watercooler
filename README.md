@@ -13,7 +13,7 @@ Also see [NOTES.md](NOTES.md).
 
 ## Built with BLT
 
-Please see the [BLT documentation](blt.readthedocs.io/en/latest) for information on build, testing, and deployment processes.
+Please see the [BLT documentation](http://blt.readthedocs.io/en/latest) for information on build, testing, and deployment processes.
 
 ## Resources
 
