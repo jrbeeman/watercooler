@@ -2,8 +2,14 @@
 
 ```
 composer install;
-cd docroot/themes/contrib/zurb_foundation && npm install && bower install && cd -;
+composer blt-alias;
+blt vm;
+blt local:setup;
 ```
+
+# Running tests within the DrupalVM
+
+`drush @watercooler.local ssh blt tests:behat`
 
 # Projects to port
 
