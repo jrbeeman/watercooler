@@ -31,4 +31,9 @@ target-hooks:
         dir: '${docroot}/profiles/contrib/lightning'
         command: 'npm run install-libraries'
 import: null
-
+# Un-comment the profiles line in order to run Lightning profile tests.
+behat:
+  paths:
+    # - ${docroot}/modules
+    # - ${docroot}/profiles
+    - ${repo.root}/tests/behat
