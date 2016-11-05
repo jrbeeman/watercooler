@@ -36,7 +36,7 @@
         "drupal-composer/drupal-security-advisories": "8.0.x-dev",
         "wikimedia/composer-merge-plugin": "^1.3",
         "roave/security-advisories": "dev-master",
-        "drupal/markdown": "8.1.*",
+        "drupal/markdown": "^8.1.1",
         "michelf/php-markdown": "1.x",
         "drupal/libraries": "8.x",
         "drupal/flag": "8.4.*",
@@ -64,18 +64,25 @@
     },
     "extra": {
         "installer-paths": {
-            "docroot/core":                     ["type:drupal-core"],
-            "docroot/modules/contrib/{$name}":  ["type:drupal-module"],
-            "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "docroot/themes/contrib/{$name}":   ["type:drupal-theme"],
-            "drush/contrib/{$name}":            ["type:drupal-drush"]
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "docroot/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "docroot/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
         },
         "patches": {
             "drupal/core": {
                 "Ignore front end vendor folders to improve directory search performance": "https://www.drupal.org/files/issues/ignore_front_end_vendor-2329453-116.patch"
-            },
-            "drupal/features": {
-                "Bundle support": "https://www.drupal.org/files/issues/features-2808303-2.patch"
             }
         },
         "merge-plugin": {
