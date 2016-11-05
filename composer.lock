@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "416b7ddd01074d46da15daf070dc98f3",
-    "content-hash": "e78109bc72feef80388128bc58b06a2b",
+    "hash": "628699dc58dba53684adbd78159fe693",
+    "content-hash": "2a10b265b90ef396de2345375fa89fe9",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1942,7 +1942,7 @@
         },
         {
             "name": "drupal/lightning",
-            "version": "dev-8.x-1.x",
+            "version": "8.1.12",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lightning.git",
@@ -9144,7 +9144,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "cweagans/composer-patches": 20,
-        "drupal/lightning": 20,
         "drupal-composer/drupal-security-advisories": 20,
         "roave/security-advisories": 20
     },
