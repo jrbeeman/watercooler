@@ -31,9 +31,16 @@ target-hooks:
         dir: '${docroot}/profiles/contrib/lightning'
         command: 'npm run install-libraries'
 import: null
-# Un-comment the profiles line in order to run Lightning profile tests.
+modules:
+    ci:
+        enable: {  }
+        uninstall: [acquia_connector, shield]
+    deploy:
+        enable: [acquia_connector, shield]
+        uninstall: [devel, field_ui, views_ui]
+    local:
+        enable: [dblog, devel, field_ui, seckit, views_ui]
+        uninstall: [acsf, acquia_connector, dblog, shield]
 behat:
     paths:
-        # - ${docroot}/modules
-        # - ${docroot}/profiles
-        - ${repo.root}/tests/behat
+        - '${repo.root}/tests/behat'
