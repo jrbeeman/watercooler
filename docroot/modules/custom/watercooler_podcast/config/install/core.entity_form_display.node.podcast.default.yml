@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.image_browser
     - field.field.node.podcast.body
     - field.field.node.podcast.field_hero
     - field.field.node.podcast.field_podcast_album_art

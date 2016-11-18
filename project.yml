@@ -40,7 +40,7 @@ modules:
         uninstall: [devel, field_ui, views_ui]
     local:
         enable: [dblog, devel, field_ui, seckit, views_ui]
-        uninstall: [acsf, acquia_connector, dblog, shield]
+        uninstall: [acsf, acquia_connector, shield]
 behat:
     paths:
         - '${repo.root}/tests/behat'
