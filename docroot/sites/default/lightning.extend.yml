@@ -17,6 +17,5 @@ modules:
   - captcha
   - recaptcha
   - decoda
-  - audio_embed_media
   - watercooler_article
   - watercooler_podcast
