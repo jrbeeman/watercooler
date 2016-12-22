@@ -11,6 +11,8 @@ git:
   default_branch: master
   remotes:
     - 'git@github.com:jrbeeman/watercooler.git'
+  hooks:
+    commit-msg: '${repo.root}/git-hooks'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
