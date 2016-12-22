@@ -2,14 +2,16 @@ langcode: en
 status: true
 dependencies:
   module:
-    - audio_embed_field
     - node
 id: node.field_podcast_enclosure
 field_name: field_podcast_enclosure
 entity_type: node
-type: audio_embed_field
-settings: {  }
-module: audio_embed_field
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

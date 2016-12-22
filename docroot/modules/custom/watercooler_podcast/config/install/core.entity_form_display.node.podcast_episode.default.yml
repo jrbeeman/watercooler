@@ -13,7 +13,6 @@ dependencies:
     - field.field.node.podcast_episode.field_podcast_explicit
     - node.type.podcast_episode
   module:
-    - audio_embed_field
     - entity_browser
     - path
     - text
@@ -85,9 +84,11 @@ content:
     type: entity_reference_autocomplete
   field_podcast_enclosure:
     weight: 4
-    settings: {  }
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: audio_embed_field_textfield
+    type: string_textfield
   field_podcast_explicit:
     weight: 8
     settings: {  }

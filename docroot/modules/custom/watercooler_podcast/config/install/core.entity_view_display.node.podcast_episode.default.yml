@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.podcast_episode.field_podcast_explicit
     - node.type.podcast_episode
   module:
-    - audio_embed_field
     - image
     - panelizer
     - text
@@ -47,16 +46,6 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-  field_podcast_enclosure:
-    weight: 2
-    label: hidden
-    settings:
-      responsive: true
-      width: 854
-      height: 250
-      autoplay: false
-    third_party_settings: {  }
-    type: audio_embed_field_audio
 hidden:
   field_podcast_album_art: true
   field_podcast_author: true

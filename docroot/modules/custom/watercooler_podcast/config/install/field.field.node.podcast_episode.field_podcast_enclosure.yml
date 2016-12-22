@@ -4,8 +4,6 @@ dependencies:
   config:
     - field.storage.node.field_podcast_enclosure
     - node.type.podcast_episode
-  module:
-    - audio_embed_field
 id: node.podcast_episode.field_podcast_enclosure
 field_name: field_podcast_enclosure
 entity_type: node
@@ -16,8 +14,5 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  allowed_providers:
-    custom_url: custom_url
-    soundcloud: soundcloud
-field_type: audio_embed_field
+settings: {  }
+field_type: string
