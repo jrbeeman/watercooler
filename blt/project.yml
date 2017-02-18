@@ -38,23 +38,23 @@ target-hooks:
 import: null
 modules:
   local:
-    enable: [dblog, devel, field_ui, seckit, views_ui]
+    enable: [dblog, devel, features_ui, field_ui, seckit, views_ui]
     uninstall: [acsf, acquia_connector, shield]
   ci:
     enable: {  }
-    uninstall: [acquia_connector, shield]
+    uninstall: [acquia_connector, features_ui, shield]
   dev:
     enable: [acquia_connector, shield]
     uninstall: {  }
   test:
     enable: [acquia_connector, shield]
-    uninstall: [devel, field_ui, views_ui]
+    uninstall: [devel, features_ui, field_ui, views_ui]
   prod:
     enable: [acquia_connector, shield]
-    uninstall: [devel, field_ui, views_ui]
+    uninstall: [devel, features_ui, field_ui, views_ui]
   deploy:
     enable: [acquia_connector, shield]
-    uninstall: [devel, field_ui, views_ui]
+    uninstall: [devel, features_ui, field_ui, views_ui]
 behat:
   paths:
     - '${repo.root}/tests/behat'
