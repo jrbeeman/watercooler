@@ -266,7 +266,7 @@ $config_directories = array();
  *
  * @see install_select_profile()
  */
-$settings['install_profile'] = 'lightning';
+$settings['install_profile'] = 'watercooler';
 
 /**
  * Salt for one-time login links, cancel links, form tokens, etc.
