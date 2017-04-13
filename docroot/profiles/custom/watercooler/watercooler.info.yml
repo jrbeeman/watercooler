@@ -1,0 +1,16 @@
+name: 'Watercooler'
+type: profile
+version: 8.x-dev
+core: '8.x'
+dependencies:
+  - decoda
+  - watercooler_article
+  - watercooler_podcast
+
+themes:
+  - bartik
+  - seven
+
+base profile:
+  name: lightning
+  excluded_dependencies: {}

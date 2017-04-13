@@ -3,7 +3,7 @@ project:
   prefix: WC
   human_name: Watercooler
   profile:
-    name: lightning
+    name: watercooler
   local:
     protocol: http
     hostname: '${project.machine_name}.localhost'

@@ -19,11 +19,12 @@
         "drupal/seckit": "^1.0.0-alpha2",
         "drupal/security_review": "*",
         "drupal/shield": "^1.0.0",
-        "drush/drush": "^8.1.8",
         "michelf/php-markdown": "^1.7.0",
         "acquia/blt": "^8.7.0"
     },
     "require-dev": {
+        "drupal/console": "~1.0",
+        "drush/drush": "^8.1.8",
         "geerlingguy/drupal-vm": "~4.3"
     },
     "extra": {
