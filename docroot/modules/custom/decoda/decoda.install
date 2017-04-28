@@ -9,15 +9,17 @@
  * Implements hook_requirements().
  */
 function decoda_requirements($phase) {
+  $requirements = [];
   $composer_loaded = class_exists('Decoda\Decoda');
+
   if (!$composer_loaded) {
-    $requirements = array();
     $requirements['decoda_library'] = array(
       'title' => t('Decoda library'),
       'value' => t('Not found'),
       'severity' => REQUIREMENT_ERROR,
       'description' => t('The Decoda library could not be found.'),
     );
-    return $requirements;
   }
+
+  return $requirements;
 }
