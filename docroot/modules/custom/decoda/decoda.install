@@ -13,12 +13,12 @@ function decoda_requirements($phase) {
   $composer_loaded = class_exists('Decoda\Decoda');
 
   if (!$composer_loaded) {
-    $requirements['decoda_library'] = array(
+    $requirements['decoda_library'] = [
       'title' => t('Decoda library'),
       'value' => t('Not found'),
       'severity' => REQUIREMENT_ERROR,
       'description' => t('The Decoda library could not be found.'),
-    );
+    ];
   }
 
   return $requirements;
